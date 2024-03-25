@@ -6,6 +6,10 @@ int func()
   return a + 10;
 }
 
+int func_multiplier(int exp)
+{
+  return exp * 2;
+}
 int main()
 {
   print("Hello Swimm\n");
