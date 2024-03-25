@@ -6,9 +6,9 @@ int func()
   return a + 10;
 }
 
-int func_multiplier(int exp)
+int func_multipliers(int exp, int num)
 {
-  return exp * 2;
+  return exp * num;
 }
 int main()
 {
